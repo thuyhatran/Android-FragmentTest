@@ -11,5 +11,11 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        MyFragment frag = new MyFragment();
+
+        getFragmentManager().beginTransaction()
+                .add(R.id.myContainer,frag)
+                .commit();
+
     }
 }

@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Hello from Fragment!"
         android:textSize="24dp"
+        android:textColor="@color/colorAccent"
         />
 
 </RelativeLayout>
